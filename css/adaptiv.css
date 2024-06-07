@@ -1,4 +1,4 @@
-@media (min-width: 1023px) and (max-width: 1440px) {
+@media (max-width: 1440px) {
   .join_community_section {
     padding: 130px 15%;
   }
@@ -28,7 +28,18 @@
   }
 }
 
-@media (min-width: 767px) and (max-width: 1024px) {
+@media (max-width: 1280px) {
+  .main_section .main_div1 .text_div .game_img {
+    display: none;
+  }
+  .customize_section_div img {
+    display: none;
+  }
+  .customize_section_div .customize_section_text .img_div img {
+    display: block;
+  }
+}
+@media (max-width: 1024px) {
   .header_div {
     width: 90%;
   }
@@ -103,6 +114,12 @@
   }
 }
 
+@media (max-width: 890px) {
+  .cloud_gaming_div .cloud_gaming_vid {
+    display: none;
+  }
+}
+
 @media (max-width: 768px) {
   .header_div .header_ul {
     display: none;
@@ -139,10 +156,7 @@
   .sponsors_section .sponsors_div .sponsors_div_text svg {
     width: 575px;
   }
-  .cloud_gaming_div .cloud_gaming_vid svg {
-    display: none;
-  }
-  .cloud_gaming_div .cloud_gaming_vid img {
+  .cloud_gaming_div .cloud_gaming_vid {
     display: none;
   }
   .gaming_shop_section .features_div .div div svg {
@@ -220,5 +234,157 @@
   }
   footer .footer_div .footer_more .social_icons {
     gap: 0;
+  }
+}
+@media (max-width: 650px) {
+  .gaming_shop_section .features_div .div {
+    display: none;
+  }
+  .header_div .header_contact .frame {
+    display: none;
+  }
+  .main_section .main_p1 {
+    display: none;
+  }
+  .main_section .main_div1 .text_div .future_text .text_svg {
+    display: none;
+  }
+  .main_section .main_div1 .text_div .future_text .text_2 {
+    font-size: 30px;
+    margin-top: 40px;
+  }
+  .main_section .explore_btn {
+    margin-top: 90px;
+  }
+  .sponsors_section .sponsors_div .sponsors_div_text svg {
+    display: none;
+  }
+  .sponsors_section .sponsors_div .sponsors_div_text p {
+    font-size: 14px;
+  }
+  .gaming_shop_section .gaming_shop_div .gaming_shop_text h1 {
+    font-size: 40px;
+  }
+  .gaming_shop_section .gaming_shop_div .gaming_shop_text p {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  .customize_section_div .customize_section_text h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .customize_section_div .customize_section_text p {
+    font-size: 12px;
+  }
+  .customize_section_div .customize_section_text .img_div .blue_box {
+    padding: 17px;
+  }
+  .join_community_section {
+    padding: 130px 10%;
+  }
+  footer {
+    padding: 130px 0px;
+  }
+}
+
+@media (max-width: 425px) {
+  .main_section {
+    grid-template-columns: 1.9fr 4.7fr;
+  }
+  .main_section .main_div1 .text_div .game_img {
+    display: none;
+  }
+  .customize_section_div img {
+    display: none;
+  }
+  .cloud_gaming_div .cloud_gaming_vid svg {
+    display: none;
+  }
+  .cloud_gaming_div .cloud_gaming_vid img {
+    display: none;
+  }
+  .join_community_section .join_community_div p {
+    display: none;
+  }
+  .main_section .main_div1 {
+    width: 100%;
+  }
+  footer .footer_div .footer_more .footer_logo svg {
+    width: 100%;
+  }
+  footer .footer_div .footer_more .footer_logo p {
+    display: none;
+  }
+  .header_div .header_contact {
+    display: none;
+  }
+  .main_section .main_div1 .text_div .future_text ul {
+    display: none;
+  }
+  .cloud_gaming_div .cloud_gaming_text p {
+    display: none;
+  }
+  .cloud_gaming_div .cloud_gaming_text ul {
+    display: none;
+  }
+  .cloud_gaming_div {
+    display: flex;
+    padding: 100px 10px;
+  }
+  .cloud_gaming_div .cloud_gaming_text h1 {
+    font-size: 34px;
+  }
+  .customize_section_div {
+    margin: 0;
+  }
+  .customize_section_div .customize_section_text {
+    margin: 45px;
+    margin-right: 60px;
+  }
+  .customize_section_div .customize_section_text .img_div img {
+    width: 80px;
+  }
+  .customize_section_div .customize_section_text ul {
+    display: none;
+  }
+  .customize_section_div .customize_section_text p {
+    font-size: 10px;
+    text-align: center;
+  }
+  .customize_section_div .customize_section_text h1 {
+    font-size: 30px;
+  }
+  .img_section svg {
+    display: none;
+  }
+  .img_section h1 {
+    font-size: 25px;
+  }
+  .join_community_section {
+    padding: 130px 0;
+  }
+  .news_section .news_div .news_div_text_div ul {
+    display: none;
+  }
+  .news_section .news_div .news_div_text_div h1 {
+    font-size: 29px;
+  }
+  .news_section .news_div .news_div_img .main_news_div img {
+    width: 100%;
+  }
+  .news_section .news_div .news_div_text .read_more {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 133%;
+    text-transform: capitalize;
+    color: #fff;
+    background-color: #57b8ff;
+    margin-top: 126px;
+    padding: 22px 43px;
+    cursor: pointer;
+  }
+  .news_section {
+    padding: 130px 15px;
   }
 }
