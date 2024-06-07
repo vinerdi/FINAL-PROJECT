@@ -257,7 +257,7 @@ header {
 
 .gaming_shop_section {
   padding: 130px 60px;
-  background-image: url(./../../img/background-image.png);
+  background-image: url(../img/background-image.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -484,7 +484,7 @@ header {
 
 .img_div1 {
   grid-area: img_div1;
-  background-image: url(./../../img/background-image1.png);
+  background-image: url(../img/background-image1.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -505,7 +505,7 @@ header {
 
 .img_div2 {
   grid-area: img_div2;
-  background-image: url(./../../img/background-image2.png);
+  background-image: url(../img/background-image2.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -526,7 +526,7 @@ header {
 
 .img_div3 {
   grid-area: img_div3;
-  background-image: url(./../../img/background-image3.png);
+  background-image: url(../img/background-image3.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -711,7 +711,7 @@ header {
 
 .join_community_section {
   padding: 130px 508px;
-  background-image: url(./../../img/bagraund-img-end.png);
+  background-image: url(../img/bagraund-img-end.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
