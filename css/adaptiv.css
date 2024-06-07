@@ -1,0 +1,224 @@
+@media (min-width: 1023px) and (max-width: 1440px) {
+  .join_community_section {
+    padding: 130px 15%;
+  }
+
+  .news_section .news_div .news_div_img .main_news_div {
+    margin-right: 50px;
+  }
+  .gaming_shop_section .features_div .div div h1 {
+    font-size: 25px;
+  }
+  .gaming_shop_section .features_div .div div p {
+    font-size: 15px;
+  }
+
+  .customize_section_div .customize_section_text h1 {
+    font-size: 45px;
+  }
+  .customize_section_div .customize_section_text p {
+    font-size: 15px;
+  }
+
+  .sponsors_section .sponsors_div .sponsors_div_text svg {
+    width: 94%;
+  }
+  .header_div {
+    width: 95%;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+  .header_div {
+    width: 90%;
+  }
+  .main_section .main_div1 .text_div .game_img {
+    display: none;
+  }
+
+  .main_section .main_div1 .text_div .future_text .text_2 {
+    font-size: 50px;
+  }
+  .main_section .main_p1 {
+    font-size: 20px;
+    line-height: 156%;
+    padding-right: 150px;
+    margin-top: 36px;
+  }
+  .main_section .main_div1 .text_div .future_text .text_svg {
+    top: 250px;
+    left: 195px;
+    width: 55%;
+  }
+
+  .header_div .header_ul li {
+    margin-right: 0;
+  }
+
+  .header_div .header_ul {
+    display: flex;
+    gap: 30px;
+  }
+  .gaming_shop_section {
+    padding: 130px 0px;
+  }
+  .cloud_gaming_div .cloud_gaming_text h1 {
+    font-size: 37px;
+  }
+  .cloud_gaming_div .cloud_gaming_text p {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+
+  .customize_section_div img {
+    display: none;
+  }
+  .customize_section_div .customize_section_text .img_div img {
+    display: block;
+  }
+  .news_section .news_div .news_div_img .main_news_div img {
+    width: 100%;
+  }
+  .news_section .news_div .news_div_img .game_news_div .game_news_grid1 {
+    width: 100%;
+  }
+  .join_community_section .join_community_div .join_community_div_text h1 {
+    font-size: 50px;
+  }
+  .join_community_section .join_community_div .join_community_div_text svg {
+    left: 27%;
+  }
+  .join_community_section .join_community_div p {
+    font-size: 15px;
+  }
+  .join_community_section {
+    padding: 130px 20%;
+  }
+  footer .footer_div .footer_more {
+    gap: 77px;
+  }
+
+  footer h1 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header_div .header_ul {
+    display: none;
+  }
+  .main_section .main_div1 .text_div .future_text ul li svg {
+    width: 80%;
+  }
+  .main_section .main_div1 .text_div .future_text ul .text_1 {
+    font-size: 10px;
+  }
+  .main_section .main_div1 .text_div .future_text .text_2 {
+    font-size: 34px;
+  }
+  .main_section .main_div1 .text_div .future_text .text_svg {
+    top: 209px;
+    left: 154px;
+    width: 50%;
+  }
+  .main_section .main_p1 {
+    font-size: 15px;
+    padding-right: 50px;
+  }
+  .main_section .explore_btn {
+    padding: 16px;
+  }
+  .main_section .view_btn {
+    margin-left: 15px;
+    font-size: 15px;
+  }
+  .main_section .btn_more {
+    display: flex;
+    align-items: baseline;
+  }
+  .sponsors_section .sponsors_div .sponsors_div_text svg {
+    width: 575px;
+  }
+  .cloud_gaming_div .cloud_gaming_vid svg {
+    display: none;
+  }
+  .cloud_gaming_div .cloud_gaming_vid img {
+    display: none;
+  }
+  .gaming_shop_section .features_div .div div svg {
+    left: -60px;
+    margin-top: 0px;
+    width: 225px;
+  }
+  .gaming_shop_section .features_div .div div h1 {
+    font-size: 25px;
+  }
+  .gaming_shop_section .features_div .div div p {
+    font-size: 10px;
+    line-height: 115%;
+  }
+
+  .customize_section_div .customize_section_text h1 {
+    font-size: 55px;
+  }
+  .customize_section_div .customize_section_text p {
+    font-size: 17px;
+    line-height: 130%;
+    margin-top: 25px;
+  }
+
+  .img_div1 h1 {
+    font-size: 30px;
+  }
+  .img_div2 h1 {
+    font-size: 35px;
+  }
+  .img_div3 h1 {
+    font-size: 30px;
+  }
+  .news_section .news_div .news_div_text_div h1 {
+    font-size: 45px;
+  }
+  .news_section .news_div .news_div_img .game_news_div {
+    display: none;
+  }
+  .news_section .news_div .news_div_img .main_news_div img {
+    width: 50%;
+  }
+  .news_section .news_div .news_div_img .main_news_div p {
+    font-size: 12px;
+    margin-top: 30px;
+  }
+  .news_section .news_div .news_div_img .main_news_div h1 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .join_community_section .join_community_div .join_community_div_text h1 {
+    font-size: 45px;
+  }
+  .join_community_section .join_community_div .join_community_div_text svg {
+    width: 70%;
+    left: 33%;
+  }
+  .join_community_section .join_community_div p {
+    display: none;
+  }
+  footer .footer_div .footer_more {
+    gap: 50px;
+  }
+  footer h1 {
+    font-size: 12px;
+  }
+  footer p {
+    font-size: 10px;
+    line-height: 137%;
+  }
+  footer .footer_div .footer_more .social_icons ul li svg {
+    width: 80%;
+    cursor: pointer;
+    margin-right: 30px;
+  }
+  footer .footer_div .footer_more .social_icons {
+    gap: 0;
+  }
+}

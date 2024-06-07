@@ -1,0 +1,137 @@
+.main_section {
+    display: grid;
+    position: relative;
+    grid-template-columns: 0.9fr 0.7fr;
+    grid-template-rows: 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "main_div1 main_div2";
+
+
+
+
+    .inst_div {
+        position: absolute;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 250%;
+        color: #80858f;
+        z-index: 2;
+        bottom: 360px;
+        left: -120px;
+
+        transform: rotate(-90deg);
+
+        ul {
+            display: flex;
+
+            li {
+                margin-right: 22px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .main_div1 {
+        grid-area: main_div1;
+        position: relative;
+        min-height: 700px;
+        background-color: black;
+
+        .text_div {
+
+            left: 0;
+            margin: 0 60px;
+
+            .future_text {
+                padding-top: 100px;
+
+                ul {
+                    display: flex;
+                    position: relative;
+                    align-items: center;
+
+                    .text_1 {
+                        font-family: var(--font-family);
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 100%;
+                        text-transform: uppercase;
+                        color: #57b8ff;
+                    }
+                }
+
+                .text_2 {
+                    font-family: var(--font-family);
+                    font-weight: 400;
+                    font-size: 72px;
+                    line-height: 119%;
+                    text-transform: capitalize;
+                    color: #fff;
+                }
+
+                .text_svg {
+                    position: absolute;
+                    top: 295px;
+                    left: 270px;
+                }
+
+            }
+
+            .game_img {
+                display: flex;
+                position: absolute;
+                bottom: 75px;
+                right: -573px;
+                width: auto;
+                height: auto;
+            }
+        }
+    }
+
+    .main_div2 {
+        grid-area: main_div2;
+        background-color: #57B8FF;
+    }
+
+    .main_p1 {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 156%;
+        color: #999;
+        padding-right: 350px;
+        margin-top: 43px;
+    }
+
+    .explore_btn {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 156%;
+        text-transform: capitalize;
+        color: #fff;
+
+        margin-top: 53px;
+        background-color: #57B8FF;
+        padding: 21px 34px;
+        cursor: pointer;
+    }
+
+    .view_btn {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 156%;
+        color: #fff;
+
+        background-color: black;
+        border: black;
+        margin-left: 40px;
+        cursor: pointer;
+    }
+}

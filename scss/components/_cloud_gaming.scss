@@ -1,0 +1,72 @@
+.cloud_gaming {
+    background-color: black;
+
+    &_div {
+        display: flex;
+        padding: 130px 60px;
+
+        .cloud_gaming_text {
+            margin-top: 38px;
+            margin-right: 95px;
+
+            ul {
+                display: flex;
+                position: relative;
+                align-items: center;
+
+                .text_1 {
+                    font-family: var(--font-family);
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 100%;
+                    text-transform: uppercase;
+                    text-align: center;
+                    color: #57b8ff;
+
+                }
+            }
+
+            h1 {
+                font-family: var(--font-family);
+                font-weight: 400;
+                font-size: 64px;
+                line-height: 116%;
+                text-transform: capitalize;
+                color: #fff;
+            }
+
+            p {
+                margin-right: 250px;
+                margin-top: 38px;
+                font-family: var(--font-family);
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 150%;
+                color: rgba(223, 223, 223, 0.8);
+            }
+
+            .cloud_gaming_btn {
+                background-color: #57b8ff;
+                padding: 21px 34px;
+                margin-top: 75px;
+                font-family: var(--font-family);
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 156%;
+                text-transform: capitalize;
+                color: #fff;
+                cursor: pointer;
+            }
+        }
+
+        .cloud_gaming_vid {
+            position: relative;
+
+            svg {
+                position: absolute;
+                top: 37%;
+                left: 35%;
+            }
+        }
+    }
+}

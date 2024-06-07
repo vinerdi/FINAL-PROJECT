@@ -1,0 +1,199 @@
+.news_section {
+    background-color: black;
+    padding: 130px 60px;
+
+    .news_div {
+
+
+        .news_div_text {
+            display: flex;
+            justify-content: space-between;
+
+            &_div {
+                ul {
+                    display: flex;
+                    position: relative;
+                    align-items: center;
+
+                    .text_1 {
+                        font-family: var(--font-family);
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 100%;
+                        text-transform: uppercase;
+                        text-align: center;
+                        color: #57b8ff;
+
+                    }
+                }
+
+                h1 {
+                    font-family: var(--font-family);
+                    font-weight: 400;
+                    font-size: 64px;
+                    line-height: 116%;
+                    text-transform: capitalize;
+                    color: #fff;
+                }
+            }
+
+            .read_more {
+                font-family: var(--font-family);
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 165%;
+                text-transform: capitalize;
+                color: #fff;
+                background-color: #57b8ff;
+                margin-top: 126px;
+                padding: 21px 34px;
+                cursor: pointer;
+            }
+        }
+
+        .news_div_img {
+            display: flex;
+            margin-top: 64px;
+            justify-content: space-evenly;
+
+            .main_news_div {
+                cursor: pointer;
+
+                p {
+                    font-family: var(--font-family);
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 100%;
+                    color: #57b8ff;
+                    margin-top: 54px;
+                }
+
+                h1 {
+                    font-family: var(--font-family);
+                    font-weight: 400;
+                    font-size: 36px;
+                    line-height: 128%;
+                    text-transform: capitalize;
+                    color: #fff;
+                    margin-top: 28px;
+                }
+            }
+
+            .game_news_div {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+                gap: 40px 24px;
+                grid-auto-flow: row;
+                grid-template-areas:
+                    "game_news_grid1 game_news_grid2"
+                    "game_news_grid3 game_news_grid4";
+
+                .game_news_grid1 {
+                    grid-area: game_news_grid1;
+                    cursor: pointer;
+
+                    img {
+                        width: 100%;
+                    }
+
+                    p {
+                        font-family: var(--font-family);
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 100%;
+                        color: #57b8ff;
+                    }
+
+                    h1 {
+                        font-family: var(--font-family);
+                        font-weight: 400;
+                        font-size: 23px;
+                        line-height: 148%;
+                        text-transform: capitalize;
+                        color: #fff;
+                    }
+                }
+
+                .game_news_grid2 {
+                    grid-area: game_news_grid2;
+                    cursor: pointer;
+
+                    img {
+                        width: 100%;
+                    }
+
+                    p {
+                        font-family: var(--font-family);
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 100%;
+                        color: #57b8ff;
+                    }
+
+                    h1 {
+                        font-family: var(--font-family);
+                        font-weight: 400;
+                        font-size: 23px;
+                        line-height: 148%;
+                        text-transform: capitalize;
+                        color: #fff;
+                    }
+                }
+
+                .game_news_grid3 {
+                    grid-area: game_news_grid3;
+                    cursor: pointer;
+
+                    img {
+                        width: 100%;
+                    }
+
+                    p {
+                        font-family: var(--font-family);
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 100%;
+                        color: #57b8ff;
+                    }
+
+                    h1 {
+                        font-family: var(--font-family);
+                        font-weight: 400;
+                        font-size: 23px;
+                        line-height: 148%;
+                        text-transform: capitalize;
+                        color: #fff;
+                    }
+                }
+
+                .game_news_grid4 {
+                    grid-area: game_news_grid4;
+                    cursor: pointer;
+
+                    img {
+                        width: 100%;
+                    }
+
+                    p {
+                        font-family: var(--font-family);
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 100%;
+                        color: #57b8ff;
+                    }
+
+                    h1 {
+                        font-family: var(--font-family);
+                        font-weight: 400;
+                        font-size: 23px;
+                        line-height: 148%;
+                        text-transform: capitalize;
+                        color: #fff;
+                    }
+                }
+
+            }
+        }
+    }
+}

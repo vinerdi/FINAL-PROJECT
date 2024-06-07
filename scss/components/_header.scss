@@ -1,0 +1,75 @@
+header {
+    position: relative;
+}
+
+.header_div {
+    width: 97%;
+    position: absolute;
+    z-index: 1;
+    margin: 0 42px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    svg {
+        cursor: pointer;
+    }
+
+    .header_ul {
+        display: flex;
+        align-items: center;
+
+
+        li {
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 162%;
+            color: #fff;
+            margin-right: 60px;
+            cursor: pointer;
+        }
+    }
+
+    .header_contact {
+        display: flex;
+
+        .frame {
+            margin-right: 20px;
+            position: relative;
+            display: flex;
+            align-items: center;
+
+            .frame_text {
+                position: absolute;
+                top: 10px;
+                right: -8px;
+                background-color: white;
+                border-radius: 9px;
+                padding: 0px 4px;
+
+                font-family: var(--font-family);
+                font-weight: 400;
+                font-size: 11px;
+                line-height: 164%;
+                text-align: center;
+                color: #141820;
+            }
+        }
+
+        .contact_btn {
+            border: 1px solid white;
+            background-color: rgba(255, 255, 255, 0);
+            padding: 16px 31px;
+
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 167%;
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+
+}

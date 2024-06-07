@@ -1,0 +1,83 @@
+.sponsors_section {
+    width: 100%;
+    height: 100%;
+    padding: 130px 60px;
+    background-color: #FDD04A;
+
+    .sponsors_div {
+
+        .sponsors_div_text {
+            position: relative;
+
+            h1 {
+                font-family: var(--font-family);
+                font-weight: 400;
+                font-size: 48px;
+                line-height: 121%;
+                text-transform: capitalize;
+                text-align: center;
+                color: #222730;
+                margin-bottom: 27px;
+            }
+
+            svg {
+                position: absolute;
+                width: 97%;
+                top: 50px;
+                right: 0;
+            }
+
+            p {
+                font-family: var(--font-family);
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 162%;
+                text-align: center;
+                color: #555;
+            }
+        }
+
+        .sponsors_div_svg {
+
+
+            ul {
+                margin-top: 44px;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 32px;
+
+
+                .sponsors1 {
+                    grid-area: sponsors1;
+                    cursor: pointer;
+                }
+
+                .sponsors2 {
+                    grid-area: sponsors2;
+                    cursor: pointer;
+                }
+
+                .sponsors3 {
+                    grid-area: sponsors3;
+                    cursor: pointer;
+                }
+
+                .sponsors4 {
+                    grid-area: sponsors4;
+                    cursor: pointer;
+                }
+
+                .sponsors5 {
+                    grid-area: sponsors5;
+                    cursor: pointer;
+                }
+
+                .sponsors6 {
+                    grid-area: sponsors6;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
